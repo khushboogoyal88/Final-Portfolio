@@ -12,6 +12,23 @@
   cursor: pointer;
 }
 
+.bg-primary {
+  background-color: #296ac0 !important;
+}
+
+.bg-success {
+  background-color: #72d372 !important;
+}
+.bg-warning {
+  background-color: #ea694d !important;
+}
+.bg-danger {
+  background-color: #febb48 !important;
+}
+
+.btn-danger {
+  background-color: #febb48 !important;
+}
 .bg-black {
   color: #fff;
   background: #000;
