@@ -28,11 +28,69 @@
     <title>Khushboo Goyal</title>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#main-nav" id="home">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="main-nav">
+      <div class="container">
+        <a href="index.html" class="navbar-brand">KG</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#home" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#resume" class="nav-link">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-link">Work</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#main-footer" class="nav-link">Download Resume</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header id="home-section">
+      <div class="dark-overlay">
+        <div class="home-inner container">
+          <div class="row">
+            <div class="col-lg-12 d-none d-lg-block">
+              <h1 class="display-5 text-white text-center">Khushboo Goyal
+              </h1>
+              
+                <div class="p-4 text-center text-white display-3">
+                  <h4>
+                    I
+                    <span href="" class="txt-type text-white" data-wait="2000"
+                      data-words='[ " am an aspiring web developer.", " love To Code.", " am an avid reader.", " am also a Mother." ]'>
+                      <span class="wrap"></span>
+                    </span>
+                  </h4>
+                </div>
+              </div>
     
+             
+            
+            </div>
+    
+            <div class="col-lg-4">
+              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
     <div class="container">
-      <header>
-        <!-- <canvas id="canvas"></canvas> -->
+      <!-- <header>
+       
         <div id="main-header">
           <div class="row no-gutters">
             <div class="col-lg-4 col-md-5">
@@ -49,7 +107,7 @@
                   >
                     <h1 class="display-4">Khushboo Goyal</h1>
                     <div class="d-none d-md-block">
-                      <a href="http://twitter.com" class="text-white p-1">
+                      <a  href="http://twitter.com" class="text-white p-1">
                         <i class="fab fa-twitter"></i
                       ></a>
                     </div>
@@ -90,35 +148,31 @@
                   >
                     <div
                       class="port-item p-4 bg-primary"
-                      data-toggle="collapse"
-                      data-target="#home"
                     >
-                      <i class="fas fa-home fa-2x d-block"></i>
-                      <span class="d-none d-sm-block">Home</span>
+                    <a href="#home">
+                      <i class="fas fa-home fa-2x d-block text-white"></i>
+                      <span class="d-none d-sm-block text-white">Home</span></a>
                     </div>
                     <div
                       class="port-item p-4 bg-success"
-                      data-toggle="collapse"
-                      data-target="#resume"
                     >
-                      <i class="fas fa-graduation-cap fa-2x d-block"></i>
-                      <span class="d-none d-sm-block">Resume</span>
+                    <a href="#resume">
+                      <i class="fas fa-graduation-cap fa-2x d-block text-white"></i>
+                      <span class="d-none d-sm-block text-white">Resume</span></a>
                     </div>
                     <div
                       class="port-item p-4 bg-warning"
-                      data-toggle="collapse"
-                      data-target="#work"
                     >
-                      <i class="fas fa-folder-open fa-2x d-block"></i>
-                      <span class="d-none d-sm-block">Work</span>
+                    <a href="#work"><i class="fas fa-folder-open fa-2x d-block text-white"></i>
+                    <span class="d-none d-sm-block text-white">Work</span></a>
+                      
                     </div>
                     <div
                       class="port-item p-4 bg-danger"
-                      data-toggle="collapse"
-                      data-target="#contact"
                     >
-                      <i class="fas fa-envelope fa-2x d-block"></i>
-                      <span class="d-none d-sm-block">Contact</span>
+                    <a href="#contact">
+                      <i class="fas fa-envelope fa-2x d-block text-white"></i>
+                      <span class="d-none d-sm-block text-white">Contact</span></a>
                     </div>
                   </div>
                 </div>
@@ -126,30 +180,36 @@
             </div>
           </div>
         </div>
-      </header>
+      </header> -->
 
       <!-- Home -->
-      <div id="home" class="collapse show">
-        <div class="card card-body bg-primary text-white py-5">
-          <h2>A bit about Me</h2>
-          <p class="lead">
-            Hello There! I'm an aspiring Web Developer based in Finland. 
-            <p>After spending a large chunk of my life in business school, working for couple of years, taking time out
-            to travel and raise a family, I've finally found my passion in
-            coding and technology. I am currently at Business College, Helsinki,
-            in a Full Stack Web Development Program. The one lesson that stood
-            out throughout my journey was the importance of continuous
-            learning. The technology which is relevant today, may become
-            redundant tomorrow, so people who can adapt fast can only survive in
-            changing times. I believe in writing clean code, which are easy to
-            manage. Currently, I spend most of my time learning JS, JS framework
-            and other back end technologies. When I'm not busy, you can find me
-            obsessing over food, health and movies. The most favorite part of
-            my day is to come home to my 4-year old daughter and spending time
-            with her.</p>
-           
-          </p>
+      <div id="home" >
+        <div class="row no-gutters">
+          <div class="col-lg-4 col-md-5">
+            <img src="assets/images/Screenshot 2020-10-15 at 5.14.33 PM.png" alt="" />
+          </div>
+          <div class="col-lg-8 col-md-7 bg-primary text-white py-5">
+            <h2 class="text-center">A bit about Me</h2>
+            <p class="lead text-center">
+              Hello There! I'm an aspiring Web Developer based in Finland.</p>
+            <p class="p-4">After spending a large chunk of my life in business school, working for couple of years, taking time out
+              to travel and raise a family, I've finally found my passion in
+              coding and technology. I am currently at Business College, Helsinki,
+              in a Full Stack Web Development Program. The one lesson that stood
+              out throughout my journey was the importance of continuous
+              learning. The technology which is relevant today, may become
+              redundant tomorrow, so people who can adapt fast can only survive in
+              changing times. I believe in writing clean code, which are easy to
+              manage. Currently, I spend most of my time learning JS, JS framework
+              and other back end technologies. When I'm not busy, you can find me
+              obsessing over food, health and movies. The most favorite part of
+              my day is to come home to my 4-year old daughter and spending time
+              with her.
+          
+            </p>
+          </div>
         </div>
+        
         <div class="card card-body py-5">
           <h3>My Skills</h3>
           <p>
@@ -158,37 +218,37 @@
           <hr />
           <h4>HTML 5</h4>
           <div class="progress mb-3">
-            <div class="progrss-bar bg-success" style="width: 100%"></div>
+            <div class="progrss-bar bg-danger" style="width: 100%"></div>
           </div>
           <h4>CSS 3</h4>
           <div class="progress mb-3">
-            <div class="progrss-bar bg-success" style="width: 80%"></div>
+            <div class="progrss-bar bg-danger" style="width: 80%"></div>
           </div>
           <h4>JS</h4>
           <div class="progress mb-3">
-            <div class="progrss-bar bg-success" style="width: 60%"></div>
+            <div class="progrss-bar bg-danger" style="width: 60%"></div>
           </div>
           <h4>React</h4>
           <div class="progress mb-3">
-            <div class="progrss-bar bg-success" style="width: 30%"></div>
+            <div class="progrss-bar bg-danger" style="width: 30%"></div>
           </div>
           <h4>Node JS</h4>
           <div class="progress mb-3">
-            <div class="progrss-bar bg-success" style="width: 20%"></div>
+            <div class="progrss-bar bg-danger" style="width: 20%"></div>
           </div>
         </div>
       </div>
 
       <!-- Resume -->
-      <div id="resume" class="collapse">
-        <div class="card card-body bg-success text-white py-5">
-          <h2>My Resume</h2>
-          <p class ="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum culpa praesentium sint sed voluptates dolore?</p>
+      <div id="resume" class="py-5">
+        <div class="card card-body bg-primary text-white py-5">
+          <h2 class="text-center">My Resume</h2>
+         
         </div>
         
         <div class="card card-body py-5">
-          <h3>My Academic Background</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae possimus tempora, laborum ipsum enim!</p>
+          <h3 class="text-center">My Academic Background</h3>
+          <p></p>
           <div class="card-deck">
         
             <div class="card">
@@ -233,8 +293,8 @@
         
           </div>
           <div class="card card-body py-5 mt-5">
-            <h3>My Work Background</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quae possimus tempora, laborum ipsum enim!</p>
+            <h3 class="text-center">My Work Background</h3>
+            <p></p>
             <div class="card-deck">
 
               <div class="card">
@@ -272,56 +332,56 @@
       </div>
 
       <!-- Work -->
-      <div id="work" class="collapse">
-        <div class="card card-body bg-warning text-white py-5">
-          <h2>My Work</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit aut, commodi rem officia incidunt dolorem!</p>
+      <div id="work" >
+        <div class="card card-body bg-primary text-white py-5">
+          <h2 class="text-center">My Work</h2>
+          
         </div>
         <div class="card card-body py-5">
           <h3>What have I built?</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, enim!</p>
+          <p>Here is a glimpse of practise projects, to learn HTML, CSS and JS. You can find the code on Github.</p>
           <div class="row no-gutters">
             <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=251" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=251" class="img-fluid">
+              <a href="./assets/images/projects/Book_List.png" data-toggle="lightbox">
+                <img src="./assets/images/projects/Book_List.png" class="img-fluid">
               </a>
             </div>
             <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=252" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=252" class="img-fluid">
+              <a href="./assets/images/projects/Jobs_In_Finland_clone.png" data-toggle="lightbox">
+                <img src="./assets/images/projects/Jobs_In_Finland_clone.png" class="img-fluid">
               </a>
             </div>
             <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=253" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=253" class="img-fluid">
+              <a href="./assets/images/projects/Loan Calculator.png" data-toggle="lightbox">
+                <img src="./assets/images/projects/Loan Calculator.png" class="img-fluid">
               </a>
             </div>
             <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=254" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=254" class="img-fluid">
+              <a href="./assets/images/projects/Number_Guesser.png" data-toggle="lightbox">
+                <img src="./assets/images/projects/Number_Guesser.png" class="img-fluid">
               </a>
             </div>
            
           </div>
           <div class="row no-gutters">
             <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=255" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=255" class="img-fluid">
+              <a href="./assets/images/projects/Personal_Portfolio.png" data-toggle="lightbox">
+                <img src="./assets/images/projects/Personal_Portfolio.png" class="img-fluid">
               </a>
             </div>
             <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=256" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=256" class="img-fluid">
+              <a href="./assets/images/projects/Portfolio_Sroller.png" data-toggle="lightbox">
+                <img src="./assets/images/projects/Portfolio_Sroller.png" class="img-fluid">
               </a>
             </div>
             <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=257" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=257" class="img-fluid">
+              <a href="./assets/images/projects/Shopping_List.png" data-toggle="lightbox">
+                <img src="./assets/images/projects/Shopping_List.png" class="img-fluid">
               </a>
             </div>
             <div class="col-md-3">
-              <a href="https://unsplash.it/1200/768.jpg?image=258" data-toggle="lightbox">
-                <img src="https://unsplash.it/600.jpg?image=258" class="img-fluid">
+              <a href="./assets/images/projects/Weather_App.png" data-toggle="lightbox">
+                <img src="./assets/images/projects/Weather_App.png" class="img-fluid">
               </a>
             </div>
           
@@ -330,9 +390,9 @@
     </div>
     </div>
     
-    <div id="contact" class="collapse">
-      <div class="card card-body bg-danger text-white py-5">
-        <h2>Contact</h2>
+    <div id="contact" class="py-5">
+      <div class="card card-body bg-primary text-white py-5">
+        <h2 class="text-center">Contact</h2>
         
       </div>
     
@@ -416,7 +476,8 @@
     </section>
 </div>
     <footer id="main-footer" class="p-5 bg-dark text-white">
-      <div class="row">
+      <div class="d-flex flex-row justify-content-between align-items-center">
+        <div class="row">
         <div class="col-md-6">
           <a href="https://docs.google.com/document/d/1tBddBFL1-tMfbX_LlHdn5SvRhSrnf9-nO2_50OgtHBI/export?format=pdf"
             class="btn btn-outline-light">
@@ -424,6 +485,26 @@
           </a>
         </div>
       </div>
+      <div class="col-md-6"></div>
+        <div class="d-none d-md-block ">
+          <a href="http://twitter.com" class="text-white p-1">
+            <i class="fab fa-twitter fa-2x"></i></a>
+        </div>
+        <div>
+          <a href="http://facebook.com" class="text-white p-1">
+            <i class="fab fa-facebook fa-2x"></i></a>
+        </div>
+        <div>
+          <a href="http://linkedin.com" class="text-white p-1">
+            <i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <div>
+          <a href="http://github.com" class="text-white p-1">
+            <i class="fab fa-github fa-2x"></i></a>
+        </div>
+      </div>
+      
+      
     </footer>
     
     <script
